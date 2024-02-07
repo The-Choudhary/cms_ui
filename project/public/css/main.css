@@ -1,0 +1,545 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #020310;
+    font-weight: 600;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%; 
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+body{
+
+    background-color: #e9eeff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+text-decoration: none;
+}
+span{
+
+    font-size: 14px;
+    font-weight: 700;
+}
+.body {
+    padding: 1px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.only-flex{
+    display: flex;
+}
+.pending{
+    color: red;
+}
+.success{
+    color: green;
+}
+
+/* header */
+
+.header {
+    padding: 4px 86px 1px 87px;
+    background-color: white;
+    width: 100%;
+}
+
+.left-img-logo {
+    height: 34px;
+    padding: 4px;
+    background-color: white;
+}
+
+.left-logo {
+    width: 23%;
+}
+
+.right-logo {
+    width: 77%;
+    justify-content: end;
+}
+.border-logo{
+
+    border: 1px solid #EBEBF4;
+    height: 25px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    margin-right: 6px;
+    overflow: hidden;
+}
+.bars{
+
+    padding: 5px;
+}
+
+/* header end */
+
+
+/* slide bar */
+.slidebar-top {
+    width: 0px;
+    background: white;
+    padding: 0px; 
+    overflow: hidden;
+
+    position: absolute;
+}
+
+.close-button {
+    font-size: 20px;
+    text-align: end;
+    width: 100%;
+    float: inline-end;
+}
+
+.slidebar-img-p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.slidebar-img {
+    height: 82px;
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.slidebar-profile-name {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 16px;
+    font-size: 19px;
+}
+
+.fafa {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    display: inline-block;
+    font-size: 1rem;
+    color: #000000;
+    width: 24px;
+}
+
+.slidebar-list-top {
+    margin-top: 28px;
+}
+
+.slidebar-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000000;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 14px;
+    border-radius: 0.375rem;
+    margin-bottom: 0.25rem;
+}
+
+/* slide bar end */
+
+/* box container */
+.box-header {
+    margin: 18px 80px 0px 80px;
+    padding: 13px 7px 6px 6px;
+}
+
+.box {
+
+    background: white;
+    height: 83px;
+    width: 24%;
+    margin: 1px 0px 4px 5px;
+    padding: 1px;
+    border-radius: 9px;
+}
+
+.card-catagory {
+    padding: 11px 23px 0px 23px;
+}
+
+.card-catagory-img {
+    margin: 0 auto 0.5rem;
+    display: block;
+    max-height: 36px;
+}
+
+.card-catagory-p {
+    font-size: 12px;
+    line-height: 1;
+    color: #747794;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+    height: 23px;
+}
+
+/* box container end */
+
+/* enquiry start */
+.container{
+
+    padding: 0px 12px;
+    margin: 0px 73.5px;
+}
+/* enquery heading start */
+
+.heading-bar{
+    background: #ffaf01;
+    height: 28px;
+    padding: 24px;
+    margin-top: 16px;
+}
+.heading-h5{
+
+
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+/* enquery heading close */
+
+/* form start */
+.form-head{
+    padding: 20px;
+  
+        background-color: #ffffff;
+    
+}
+.input-parent{    padding: 0px 0px 16px;}
+.fafa-form{
+
+    background: #00b894;
+    color: white;
+    width: 15px;
+    text-align: center;
+    padding: 7px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.form-heading-name{
+
+    font-size: 14px;
+    color: #020310;
+    font-weight: 600;
+}
+.form-blank-heading{
+
+    margin: 0px 0px 8px;
+
+}
+.form-blank{
+    width: 98%;
+    height: 29px;
+    padding: 0px 12px;
+    font-size: 17px;
+    border: 1px solid #ebebec;
+    border-radius: 6px;
+    font-family: system-ui;
+}
+.form-control{
+
+    width: 100%;
+    height: 29px;
+    padding: 0px 12px;
+    font-size: 17px;
+    border: 1px solid #ebebec;
+    border-radius: 6px;
+    font-family: system-ui;
+}
+    /* form end */
+.query-button{
+
+    height: 32px;
+    background-color: #00b894;
+    border-color: #00b894;
+    color: white;
+}
+/* enquiry end */
+
+/* view enquery start */
+
+.btn-enq-bg{    
+     background-color: #100DD1;
+    border-color: #100DD1;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 6px;
+}
+.fafa-view-query{
+         margin-right: 7px;
+}
+.add-admission{
+
+    height: 48px;
+    background-color: #00b894;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+/* view enquery end */
+
+/* view Students end */
+
+.add-fee{
+    background-color: #00b894;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 6px;
+    border: white;
+    padding: 8px;
+}
+/* view Students end */
+
+
+/* view invest start */
+.inv-search{
+    width: 80%;
+}
+.add-inv{
+    background-color: #00b894;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    width: 20%;
+    padding-top: 4px;
+    margin-left: 5px;
+}
+
+/* view invest end */
+/* buisness analysis start */
+
+.bui{
+
+    margin: 10px 73.5px;
+}
+
+.bui-box {
+    padding: 16px 8px;
+    width: 47%;
+    background: white;
+    border-radius: 7px; 
+    margin: 5px; 
+    text-align: center;
+}
+.bui-p{
+
+    font-size: 11px;
+}
+.bui-mrp{
+
+    font-weight: 900;
+
+    font-size: 37px;
+
+}
+
+/* buisness analysis end */
+
+/* help start */
+.help-box1{
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+}
+.help-h4{
+
+    color: #0972ad;
+    font-size: 30px;
+}
+.help-box2{
+    padding: 20px;
+margin-top: 12px;
+    background-color: white;
+}
+.help-h5{
+
+    font-size: 19px;
+}
+.help-fafa{
+    color: white;
+    background: blue;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 10px 10px 0px 0px;
+    width: 20px;
+    text-align: center;
+    height: 17px;
+}
+.help-fafa2{
+
+    background: red;
+}
+.help-p{
+    margin-top: 12px;
+}
+
+/* help end*/
+/* profile start */
+.profile-head{    height: 121px;
+}
+.profile-image{
+
+    width: 120px;
+    border-radius: 50%;
+    height: 120px;
+    overflow: hidden;
+}
+.profile-detail{
+
+    margin: 38px;
+}
+.profile-h5{
+        font-size: 21px;
+    margin-top: 6px;
+}
+.profile-box1{
+
+    width: 50%;
+    text-align: start;
+}
+.profile-p{
+
+    margin-top: 25px;
+    font-size: 13px;
+    margin-top: 25px;
+}
+.profile-box2{
+
+    width: 50%;
+
+    text-align: end;
+}
+.profile-edit{
+    background: blue;
+    border: white;
+    width: 100%;
+    color: white;
+}
+.another-option{
+
+    background: white;
+    width: 100%;
+    height: 76px;
+    margin-top: 21px;
+    border-radius: 12px;
+
+}
+.option-titles{
+        padding: 22px;
+        font-size: 26px;
+        font-weight: 500;
+}
+.option-arrow{
+
+    padding: 22px;
+    font-size: 26px;
+    font-weight: 500;
+}
+/* profile end */
+/* login page start */
+.body-white{
+    /* background-image: url(https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?w=2000&t=st=1706610335~exp=1706610935~hmac=2e6dcbad9eeb1f436c804d210f1dd27875dff35a75089b6ed5179b688155e00b); */
+    background-color: white;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.login-heading1{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 25px;
+    color: midnightblue;
+    font-weight: 600;
+
+}
+.login-heading2{
+
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 27px;
+}
+.login-logo{
+    
+    width: 80px;
+    text-align: center;
+    align-items: center;
+    margin-left: 47%;
+    padding-top: 12%;
+
+}
+
+.login-box {
+    border: 1px solid;
+    border-radius: 12px;
+    width: 23%;
+    height: fit-content;    
+    margin: auto;
+}
+.login-form{
+
+    padding: 37px;
+}
+.login-form-data {
+    width: 81%;
+    height: 25px;
+    margin: 15px;
+    margin-top: 1px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.login-button{
+
+    width: 85%;
+    margin-left: 14px;
+    color: black;
+    padding: 5px;
+    background: burlywood;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+/* login page end */
